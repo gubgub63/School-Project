@@ -1,71 +1,68 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SiteTest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SiteTest</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-
+<body>
+<header>
   <nav>
     <ul>
       <li> <a href="index.html">Planning extra-universitaire</a></li>
       <li> <a href="Cursus.html">Cursus</a></li>
       <li> <a href="Planning.html">Planning</a></li>
-      <li><a href="Projet.html">Projets</a> </li>
+      <li><a href="image.html">Galeries</a></li>
     </ul>
   </nav>
-  <div id="block">
-  <section id="en-tete">
-    <div id="tete">
-      <img src="Image/moi.jpeg" alt="Moi" height="150" />
-    </div>
-    <div id="presentation">
-      <p>
-        Je suis Enzo Gubbiotti , j'ai 18 ans <br />
-        Je suis venu ici a l'iut dans le but principale de devenir
-        <a href="https://fr.wikipedia.org/wiki/D%C3%A9veloppeur_full_stack" target="_blank">full-stack</a>
-        developpeur. <br />
-        Je code des sites et devellope des "jeux" depuis plus de 2 ans et
-        j'aime ca .
-      </p>
-      <p>Je suis plutot dynamique , joyeux et motivée lorsque j'entreprend
-        quelque chose que j'aime faire</p>
-    </div>
-  </section>
+</header>
+<section class="container">
+  <aside id="tete">
+    <img src="Image/moi.jpeg"  alt="Moi" height="200px" />
+  </aside>
+  <aside id="presentation">
+    <p>
+      Je suis Enzo Gubbiotti , j'ai 18 ans <br />
+      Je suis venu ici a l'iut dans le but principale de devenir
+      <a href="https://fr.wikipedia.org/wiki/D%C3%A9veloppeur_full_stack" target="_blank">full-stack</a>
+      developpeur. <br />
+      Je code des sites et devellope des "jeux" depuis plus de 2 ans et
+      j'aime ca .
+    </p>
+    <p>Je suis plutot dynamique , joyeux et motivée lorsque j'entreprend
+      quelque chose que j'aime faire</p>
+  </aside>
+  </div>
 
   <section id="jeux">
-        <article id="coterGauche">
-          <h2>Mon premier jeux</h2>
+    <article id="description">
+      <h2>Mon premier jeux</h2>
+      <p>
+        Le premier vrai jeux que j'ai codé au cours de ma vie se nomme
+        Pykemon <br />
+        <a href="index2.html" title="suite "><i>Lire la suite </i></a>
+      </p>
+    </article>
 
-          <p>
-            Le premier vrai jeux que j'ai codé au cours de ma vie se nomme
-            Pykemon.<br> C'est un projet que j'ai créé avec un ami a moi du nom de
-            victor. <br />
-            Le but de ce projet était de créé un jeux pokémon en utilisant
-            <br />
-            uniquement python et ses differentes bibliothèques.<br />
-            Au final le projet a abouti a un jeux ou l'on peut se deplacée dans
-            2 maps et 2 maison. <br />
-            <a href="index.html" title="suite "> <i>Reduire</i> </a>
-          </p>
-        </article>
-        <aside id="lienReseaux">
-        <ul>
-          <li><a href="https://github.com/gubgub63">Github</a></li>
-          <li>
-            <a
-              href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjCh8TWuJqBAxXpTKQEHQ7xAUAQFnoECBIQAQ&url=https%3A%2F%2Fwww.tiktok.com%2F%40haikyuu_fann_&usg=AOvVaw2CaFBsUG5aa3UTsn_y0byp&opi=89978449"
-              >TikTok</a
-            >
-          </li>
-        </ul>
-        </aside>
-      </section>
+    <aside id="liens">
+      <ul>
+        <li>
+          <a href="https://github.com/gubgub63" target="_blank">Github</a></li>
+        <li>
+          <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjCh8TWuJqBAxXpTKQEHQ7xAUAQFnoECBIQAQ&url=https%3A%2F%2Fwww.tiktok.com%2F%40haikyuu_fann_&usg=AOvVaw2CaFBsUG5aa3UTsn_y0byp&opi=89978449"target="_blank">TikTok</a>
+        </li>
+      </ul>
+    </aside>
+  </section>
+  <div id="competences">
+    <div>Python</div>
+    <div>JavaScript</div>
+    <div>Web</div>
+  </div>
 
-    </header>
-    <div/>
-  </body>
+</section>
+
+</body>
 </html>
