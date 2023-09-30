@@ -12,7 +12,7 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     border: 1px solid black ;
-    box-shadow: 2px 2px 2px  blue ; 
+    box-shadow: 2px 2px 2px  black ;
     border-radius: 10px;
 }
 #en-tete{
@@ -115,8 +115,12 @@ a:hover{
     float: right;
     margin-right: 100px;
 }
+
 #liens li{
     list-style-type: none;
+}
+#liens img:hover{
+    height: 40px;
 }
 
 #competences{
@@ -127,10 +131,12 @@ a:hover{
 }
 
 #competences div {
+    height: 100px;
+    padding-top: 5px;
     padding-left: 20px;
     text-align: left;
     float: left;
-    width: 28%;
+    width: 29%;
     border-radius: 15px;
     border:1px solid black;
     box-shadow: 2px 2px green;
