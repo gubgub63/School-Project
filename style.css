@@ -9,8 +9,8 @@ body {
 }
 
 .container{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     border: 1px solid black ;
     box-shadow: 2px 2px 2px  black ;
     border-radius: 10px;
@@ -22,7 +22,6 @@ body {
     padding-bottom: 20%;
 }
 #tete{
-    padding: 0;
     float: left;
     margin-left: 30px;
 }
